@@ -13,6 +13,7 @@ public class Provider {
     }
 
     public void procesarContrato(){
+        this.builder.createContrato();
         this.builder.buildCosto();
         this.builder.buildEmpresa();
         this.builder.buildListaDeCanales();
