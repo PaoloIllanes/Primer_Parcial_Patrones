@@ -1,22 +1,22 @@
-package interpreter.structure.singleton.structure;
+package singleton.structure;
 
 import java.util.Date;
 
-public class Singleton1 {
+public class Singleton4 implements Cloneable {
     // 2) attribute del mismo tipo, private, static
-    private static Singleton1 instance;
+    private static Singleton4 instance;
 
     // 1) constructor private
-    private Singleton1(){
+    private Singleton4(){
         System.out.println("*-*-* Creando mi singleton .....");
         //logic
     }
 
     // 3) method public static - para el acceso global
-    public static Singleton1 getInstance(){
+    public static Singleton4 getInstance(){
          // garantiza que la instancia es unica
          if (instance== null)
-             instance= new Singleton1();
+             instance= new Singleton4();
          return instance;
     }
 
@@ -27,4 +27,10 @@ public class Singleton1 {
     public void resetSingleton(){
         instance=null;
     }
+
+    public Object clone() throws CloneNotSupportedException {
+        throw new CloneNotSupportedException("esto es un singleton");
+    }
 }
+
+

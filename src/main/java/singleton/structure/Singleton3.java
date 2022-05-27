@@ -1,4 +1,4 @@
-package interpreter.structure.singleton.structure;
+package singleton.structure;
 
 import java.util.Date;
 

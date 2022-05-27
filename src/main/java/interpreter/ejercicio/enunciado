@@ -1,0 +1,4 @@
+(interpreter) Se tiene un lenguaje que se desea crear (interpretar), que consiste en
+interpretar las operaciones matemáticas de suma y división, tomando en cuenta que la
+operación de división siempre esta al inicio de la cadena
+ejemplo: 10 / 2 + 5 + 5 + 5 resultado: 20
