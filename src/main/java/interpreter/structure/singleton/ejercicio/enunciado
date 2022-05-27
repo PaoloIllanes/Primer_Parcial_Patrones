@@ -1,0 +1,7 @@
+% (singleton ) Cuando un estudiante (nombre,ci) desea iniciar su tesis de defensa de
+grado necesita realizar una inscripción única de su tema de tesis (título,mención, datos del
+estudiante) ,donde se ingresan los datos de la tesis en un objeto que almacena tesis y se
+guarda la hora actual cuando se realizó el registro de la tesis, el jefe de recursos humanos
+puede consultar cuántos tesis están registrados mostrando los datos de la tesis (no existen
+duplicados), hora de registro, se desean inscribir 4 tesis diferentes (tema1,tema2,tema3,tema4)
+y 1 duplicado al mismo tiempo (tema1).

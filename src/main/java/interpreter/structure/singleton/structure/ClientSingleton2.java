@@ -1,4 +1,4 @@
-package singleton.structure;
+package interpreter.structure.singleton.structure;
 
 public class ClientSingleton2 {
 

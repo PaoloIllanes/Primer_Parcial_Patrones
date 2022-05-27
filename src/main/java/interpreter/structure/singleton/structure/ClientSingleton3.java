@@ -1,6 +1,6 @@
-package singleton.structure;
+package interpreter.structure.singleton.structure;
 
-public class ClientSingleton3Correct {
+public class ClientSingleton3 {
   /*
   *
   *  Error al usar concurrencia al llamar a singletons
@@ -11,7 +11,7 @@ public class ClientSingleton3Correct {
         Thread user1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                Singleton3 s1=Singleton3.getInstance();
+                Singleton1 s1=Singleton1.getInstance();
                 s1.time();
                 System.out.println("singleton 1: "+s1);
                 System.out.println("singleton 1: "+s1.hashCode());
@@ -21,7 +21,7 @@ public class ClientSingleton3Correct {
         Thread user2 = new Thread(new Runnable() {
             @Override
             public void run() {
-                Singleton3 s2=Singleton3.getInstance();
+                Singleton1 s2=Singleton1.getInstance();
                 s2.time();
                 System.out.println("singleton 1: "+s2);
                 System.out.println("singleton 1: "+s2.hashCode());
@@ -32,7 +32,7 @@ public class ClientSingleton3Correct {
         Thread user3 = new Thread(new Runnable() {
             @Override
             public void run() {
-                Singleton3 s3=Singleton3.getInstance();
+                Singleton1 s3=Singleton1.getInstance();
                 s3.time();
                 System.out.println("singleton 1: "+s3);
                 System.out.println("singleton 1: "+s3.hashCode());

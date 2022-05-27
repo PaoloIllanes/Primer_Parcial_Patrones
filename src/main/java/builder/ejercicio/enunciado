@@ -1,0 +1,10 @@
+% (builder) Se tiene una familia de contratos a plataformas de video streaming donde una
+usuario puede crear una subscripcion (contrato), existen 3 que son los más pedidos y se desea
+tener esas opciones por defecto,
+ContratoHBO (costo=100bs, empresa=hbo,
+listaDeCanales=llenar con algunas peliculas) , Contrato
+NETLFIX (costo=150bs,
+empresa=netlfix, listaDeCanales=llenar con algunas peliculas) ,
+ContratoAMAZON
+(costo=50bs, empresa=aws, listaDeCanales=llenar con algunas películas), entran 1 usuario y
+desea realizar una subscripcion a cada uno de ellos

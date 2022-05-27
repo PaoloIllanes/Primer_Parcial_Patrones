@@ -1,0 +1,4 @@
+ (factory method) Se desea tener una forma fácil de crear específicos Elementos de
+una tienda deportiva donde se define el precio al momento de venderlo luego de instanciarlo,
+los elementos deportivos son, PelotaFutbol (tamano, color, garantia), Camiseta, Shorts, Medias,
+Tenis. se desea instanciar 1 de cada 1
